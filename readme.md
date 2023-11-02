@@ -22,3 +22,12 @@ or
 ```bash
 $ psql --port=6432 --host=localhost --username root pgbouncer
 ```
+
+Please make sure userlist.txt format is correct.
+
+Example: 
+
+```bash
+"username" "password"
+"root" "root"
+```
